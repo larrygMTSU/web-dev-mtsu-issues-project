@@ -13,10 +13,11 @@
 
   <!-- Your CSS -->
   <!-- Fix: correct path to your stylesheet -->
-  <link rel="stylesheet" href="web-dev-mtsu-issues-project/css/style.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body> 
+  <a href="#main-content" class="skip-link">Skip to main content</a>
   <!-- Navigation bar -->
   <!-- Fix: add navbar-dark so the toggler icon is visible -->
   <nav class="navbar navbar-expand-lg navbar-dark">
@@ -44,9 +45,9 @@
               Resources
             </a>
             <ul class="dropdown-menu dropdown-menu-animated" aria-labelledby="resourcesDropdown">
-              <li><a class="dropdown-item" href="#centers-programs">Centers & Programs</a></li>
-              <li><a class="dropdown-item" href="#educational-toolkit">Educational Toolkit</a></li>
-              <li><a class="dropdown-item" href="#training">Training</a></li>
+              <li><a class="dropdown-item" href="centers-programs.html">Centers & Programs</a></li>
+              <li><a class="dropdown-item" href="educational-toolkit.html">Educational Toolkit</a></li>
+              <li><a class="dropdown-item" href="training.html">Training</a></li>
             </ul>
           </li>
           <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
@@ -55,9 +56,10 @@
     </div>
   </nav>
 
+  <main id="main-content">
   <!-- Hero section -->
   <header class="hero text-center">
-    <img src="web-dev-mtsu-issues-project/images/vitaly-gariev-lxIUgdSRLLE-unsplash.jpg" 
+    <img src="https://images.unsplash.com/photo-1758270703884-e1c40c43465f?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
          alt="Professor teaching diverse students in a lecture hall" 
          class="hero-bg-image" />
     <div class="container hero-content">
@@ -81,7 +83,7 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="web-dev-mtsu-issues-project/images/anita-monteiro-m7GlhLkU7zU-unsplash.jpg" class="d-block w-100" alt="Students collaborating in classroom">
+                <img src="https://images.unsplash.com/photo-1671055997465-10aa1cc908e1?q=80&w=1808&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Students collaborating in classroom">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Building Community</h5>
                 </div>
@@ -160,6 +162,7 @@
     </div>
   </section>
 
+  </main>
   <!-- Footer -->
   <footer class="footer text-center">
     <div class="container">
