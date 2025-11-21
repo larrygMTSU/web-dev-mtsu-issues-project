@@ -113,6 +113,37 @@ a:focus-visible {
   }
 }
 
+/* ------------------ About Text Boxes ------------------ */
+.about-text-box {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  transition: box-shadow 0.3s ease;
+}
+
+.about-text-box:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.about-text-box h3 {
+  color: var(--color-brown);
+  font-weight: 600;
+  border-bottom: 2px solid var(--color-peach);
+  padding-bottom: 0.5rem;
+}
+
+.about-text-box a {
+  color: var(--color-blue);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.about-text-box a:hover {
+  color: var(--color-rust);
+  text-decoration: underline;
+}
+
 /* ------------------ Hero Section ------------------ */
 .hero {
   position: relative;
